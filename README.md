@@ -16,7 +16,7 @@ Also the compile-phase can much simpler be ported onto different computers, for 
 How?
 ----
 ```
-docker run --user=`id -u` --group=`id -g` -it litex-buildenv-docker ./build-script/make.py -vv firmware
+docker run --rm --user=`id -u` --group=`id -g` -it litex-buildenv-docker ./build-script/make.py -vv firmware
 ```
 
 Who?
